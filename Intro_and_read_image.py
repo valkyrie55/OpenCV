@@ -5,5 +5,4 @@ import matplotlib.pyplot as plt
 img = cv2.imread(r'C:\Users\UPES\Pictures\pic1.jpg', cv2.IMREAD_GRAYSCALE)
 plt.imshow(img,cmap = 'gray' )
 plt.plot([50,100],[80,100], '+')
-plt.imwrite('new_image.jpg', img)
 plt.show()
